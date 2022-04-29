@@ -38,12 +38,11 @@ customized django-db-logger with advanced search
 
 ### Clone repository in local
 
-#### Run above commands
-
+#### Quick start
 ````
-pip install -r requirements.xt
-
-cd example
+git clone git@github.com:dattolo/djadim.git
+cd djadim
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py loaddata identity_dumps.json
