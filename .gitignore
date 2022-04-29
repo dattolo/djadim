@@ -1,0 +1,41 @@
+admin_adv_search_builder
+db.sqlite3
+
+# virtualenv
+venv/
+ENV/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Django stuff:
+*.log
+local.py
+syntax: regexp
+^static/
+syntax: glob
+*.db
+*.sqlite3
+media/*
+
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
