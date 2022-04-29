@@ -34,7 +34,7 @@ Insert *username* and *password* at prompt request.
 
 #### After installation
 
-Login in [admin](http://127.0.0.1:8000/admin/) and login with previous *username* and *password*.
+Login in [admin](http://127.0.0.1:8000/admin/) with previous *username* and *password*.
 
 ##### Generate dummy log
 
