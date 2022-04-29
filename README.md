@@ -13,7 +13,10 @@ Based on:
 
 **Create your Virtual Environment**
 
-Copy and paste in terminal
+Suggested [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
+
+**In the teminal**
+*Copy and paste*
 ````
 git clone git@github.com:dattolo/djadim.git
 cd djadim
@@ -25,6 +28,12 @@ python manage.py runserver
 ````
 
 ## Reference
+
+### Pip freeze
+
+```commandline
+
+```
 
 **Django version**
 
