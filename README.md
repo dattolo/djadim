@@ -2,12 +2,29 @@
 Djadim, Django Admin navigation, advanced search and db log.
 
 Based on:
-* django>3
+* django 3
 * django-admin-tools
 * django-admin-search-builder
 * django-application-settings
 * django-db-logger
-* ipdb==0.13.9
+* ipdb
+
+## Quick start
+
+**Create your Virtual Environment**
+
+Copy and paste in terminal
+````
+git clone git@github.com:dattolo/djadim.git
+cd djadim
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py loaddata data.json
+python manage.py runserver
+````
+
+## Reference
 
 **Django version**
 
@@ -36,19 +53,6 @@ customized django-db-logger with advanced search
 
 **Local settings**
 
-### Clone repository in local
-
-#### Quick start
-````
-git clone git@github.com:dattolo/djadim.git
-cd djadim
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py loaddata data.json
-python manage.py runserver
-````
-
-#### Authors
+### Authors
 
 Francesco Dattolo
