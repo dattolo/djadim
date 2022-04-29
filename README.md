@@ -4,6 +4,7 @@ Djadim, Django Admin navigation, advanced search and db log.
 Based on:
 * django>3
 * django-admin-tools
+* django-admin-search-builder
 * django-application-settings
 * django-db-logger
 * ipdb==0.13.9
