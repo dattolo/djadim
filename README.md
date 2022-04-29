@@ -11,14 +11,13 @@ Based on:
 
 ## Quick start
 
-### Create your Virtual Environment
+### Create Virtual Environment
 
-Suggested [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
+I recommend to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
 
 ### Installation
-**In the teminal**
-*Copy and paste*
+*Copy and paste* in the teminal
 ````
 git clone git@github.com:dattolo/djadim.git
 cd djadim
