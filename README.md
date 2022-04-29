@@ -1,5 +1,5 @@
-# Django Admin Improved
-Djadim, Django Admin navigation, advanced search and db log.
+# Djadim  
+Django Admin Improved gained by Navigation, Advanced search and db log.
 
 Based on:
 * django 3
@@ -11,10 +11,12 @@ Based on:
 
 ## Quick start
 
-**Create your Virtual Environment**
+### Create your Virtual Environment
 
 Suggested [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
+
+### Installation
 **In the teminal**
 *Copy and paste*
 ````
@@ -26,6 +28,28 @@ python manage.py createsuperuser
 python manage.py loaddata data.json
 python manage.py runserver
 ````
+
+#### During installation
+
+Insert *username* and *password* at prompt request. 
+
+#### After installation
+
+Login in [admin](http://127.0.0.1:8000/admin/) and login with previous *username* and *password*.
+
+##### Generate dummy log
+
+In Menu Naigation go in 
+
+'Application' -> 'Identity' -> 'Digital Identity' 
+
+Open and Save an identity.
+
+A sample log will writed. 
+
+Logs are in 
+
+'Application' -> 'Log' -> 'Logging'
 
 ## Reference
 
