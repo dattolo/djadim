@@ -13,8 +13,17 @@ Based on:
 
 ### Create Virtual Environment
 
-I recommend to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
+Create a Virtual Environment
 
+```
+python3 -m venv /path/to/new/virtual/environment
+```
+
+Activate venv
+
+```commandline
+source /path/to/new/virtual/environment/bin/activate
+```
 
 ### Installation
 *Copy and paste* in the teminal
