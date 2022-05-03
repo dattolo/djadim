@@ -28,7 +28,7 @@ source /path/to/new/virtual/environment/bin/activate
 ### Installation
 *Copy and paste* in the teminal
 ````
-git clone git@github.com:dattolo/djadim.git
+git clone https://github.com/dattolo/djadim.git
 cd djadim
 pip install -r requirements.txt
 python manage.py migrate
